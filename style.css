@@ -1,0 +1,77 @@
+body {
+    background: black;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.timer {
+    border: 5px solid rgb(20, 31, 121);
+    border-radius: 50%;
+    width: 28em;
+    margin: auto;
+    padding: 5em 0;
+}
+
+h1,h2,h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em auto;
+}
+
+#seconds, #tens {
+    margin: 2em auto;
+    font-size: 2em;
+}
+
+button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: black;
+    color: #fff;
+    border: solid 1px rgb(25, 0, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+button:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: black;
+    border: solid 1px #fff;
+    color:rgb(25, 0, 255);
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 110px;
+}
+@media(max-width:768px) {
+    .timer {
+        border: 5px solid rgb(20, 31, 121);
+        border-radius: 100%;
+        width: 100%;
+        margin: auto;
+        padding: 8em em;
+    }
+    button{
+        font-size: smaller;
+        width: 140px;
+    }
+}
